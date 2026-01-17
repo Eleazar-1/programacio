@@ -25,7 +25,11 @@ public class Rectangulo {
     }
 
     public void sumaDeLados(double x1, double y1, double x2, double y2){
-        System.out.println("Suma de todos los lados"+);
+        System.out.println("Suma de todos los lados: "+(x1+y1+x2+y2));
+    }
+
+    public void area(double x1, double y1, double x2, double y2){
+        System.out.println("Area: "+(x1+y1)*(x2+y2));
     }
 
 }
