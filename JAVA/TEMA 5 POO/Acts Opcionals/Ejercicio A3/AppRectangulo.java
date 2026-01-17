@@ -11,9 +11,12 @@ public class AppRectangulo {
 
         //Mostrar por pantalla sus coordenadas
         r1.mostrarCoordenadas(x1, y1, x2, y2);
+        
         //Perimetros suma de los lados
+        r1.sumaDeLados(x1, y1, x2, y2);
+        
         //Areas (ancho*alto)
-
+        r1.area(x1, y1, x2, y2);
 
     }
 }
